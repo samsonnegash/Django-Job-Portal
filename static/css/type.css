@@ -1,0 +1,24 @@
+#type {
+  /* font-size: 90px; */
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 2s steps(9) infinite alternate,
+    blink 800ms steps(9) infinite normal;
+  border-right: 5px solid black;
+}
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: chartreuse;
+  }
+  to {
+    border-color: transparent;
+  }
+}
