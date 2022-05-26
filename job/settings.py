@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'taggit',
     'user_visit',
     'rest_framework',
+    'ckeditor',
 
 ]
 
