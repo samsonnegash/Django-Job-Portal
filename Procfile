@@ -1,1 +1,1 @@
-web: gunicorn jobspace-isnp.wsgi --log-file -
+web: gunicorn job.wsgi --log-file -
