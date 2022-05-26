@@ -1,1 +1,1 @@
-web: gunicorn Job-Portal-Django-master.wsgi --log-file -
+web:gunicorn Job-Portal-Django-master.wsgi --log-file -
