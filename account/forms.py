@@ -20,7 +20,7 @@ class EmployeeRegistrationForm(UserCreationForm):
 
         self.fields['first_name'].widget.attrs.update(
             {
-                'placeholder': 'Enter First Name',
+                'placeholder': 'Enter First Name, like sam',
             }
         )
         self.fields['last_name'].widget.attrs.update(
@@ -76,12 +76,12 @@ class EmployerRegistrationForm(UserCreationForm):
 
         self.fields['first_name'].widget.attrs.update(
             {
-                'placeholder': 'Enter Company Name',
+                'placeholder': 'Enter Company Name, eg ISNP',
             }
         )
         self.fields['last_name'].widget.attrs.update(
             {
-                'placeholder': 'Enter Company Address',
+                'placeholder': 'Enter Company Address, eg ቡልቡላ ',
             }
         )
         self.fields['email'].widget.attrs.update(
@@ -91,7 +91,7 @@ class EmployerRegistrationForm(UserCreationForm):
         )
         self.fields['password1'].widget.attrs.update(
             {
-                'placeholder': 'Enter Password',
+                'placeholder': 'Enter Password, Strong',
             }
         )
         self.fields['password2'].widget.attrs.update(
