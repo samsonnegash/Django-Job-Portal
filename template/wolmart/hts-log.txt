@@ -1,0 +1,15 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sun, 08 May 2022 05:47:50 at https://portotheme.com/html/wolmart/demo1.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://portotheme.com/html/wolmart/demo1.html -O1 "C:\My Web Sites\wolmart" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+05:47:53	Warning: 	Moved Permanently for https://portotheme.com/robots.txt
+05:47:53	Warning: 	Redirected link is identical because of 'URL Hack' option: https://portotheme.com/robots.txt and https://www.portotheme.com/robots.txt
+05:47:53	Warning: 	Warning moved treated for https://portotheme.com/robots.txt (real one is https://www.portotheme.com/robots.txt)
+05:52:05	Error: 	"Not Found" (404) at link https://www.portotheme.com/html/wolmart/assets/images/pages/coming/coming-soon.jpg (from https://portotheme.com/html/wolmart/coming-soon.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 16 seconds : 592 links scanned, 590 files written (40275200 bytes overall) [40501309 bytes received at 158208 bytes/sec], 27.1 requests per connection
+(1 errors, 3 warnings, 0 messages)
